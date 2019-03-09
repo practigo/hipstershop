@@ -7,6 +7,7 @@ import "errors"
 // environment variables
 const (
 	JaegerAddrEnv = "JAEGER_SERVICE_ADDR"
+	DebugModeEnv  = "ENABLE_DEBUG_MODE"
 )
 
 // exported errors
